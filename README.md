@@ -1,7 +1,5 @@
 # Medi-Score-Calculation
-Overview
-# 
-
+# Overview
 This project is a Medhi Score calculator, which is a simplified patient scoring system based on physiological measurements. It is used to help identify patients who require urgent medical attention by assigning scores to different vital signs.
 
 The final score is calculated by evaluating patient evaluations and summing up the final score
@@ -13,9 +11,9 @@ This solution implements the Medi score logic using a web-based interface
  
  # Technologies Used
 
-HTML- to structure the web interface and create the input form
-CSS - to style the page and improve visual presentation
-JavaScript - to implement scoring logic and dynamically calculate the Medi score
+1. HTML- to structure the web interface and create the input form
+2. CSS - to style the page and improve visual presentation
+3. JavaScript - to implement scoring logic and dynamically calculate the Medi score
 
 # Why JavaScript
 JavaScript was used because it allows the scoring logic to run directly in the browser, making the application interactive and easy to test.
@@ -34,5 +32,7 @@ JavaScript was used because it allows the scoring logic to run directly in the b
  Instead of writing a large block of code, the calculation is divided into smaller fuctions with a main controller function.
 
  If statements combined with return statements are used to simplify the logic. Once a condition is met, the function immediately returns the appropriate score, preventing unncecessary checks and reduce complexity.
-
  Overall This approach, reduces code complexity, improves readability, makes debugging easier and allows for each scoring rule to be tested independently.
+
+ This approach, reduces code complexity, improves readability, makes debugging easier and allows for each scoring rule to be tested independently.
+
