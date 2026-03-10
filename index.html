@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Medi Calulator</h1>
+    <p> Please fill in all the necessary information</p>
+    <form id="mediForm">
+     <div> 
+        <label>Oxygen</label>
+        <select id="oxygen">
+          <option value="0">Air</option>
+          <option value="2">Oxygen</option>
+        </select>
+     </div>
+     <div>
+        <label>Consciousness</label>
+        <select id="consciousness">
+          <option value="0">Alert</option>
+          <option value="3">CVPU</option>
+        </select>
+    </div>
+     <div>
+        <label>Respiration Rate/minuite</label>
+        <input type="number" id="respirations" placeholder="Respirations">
+    </div>
+    <div>
+        <label>SpO2</label>
+        <input type="number" id="spo2" placeholder="SpO2">
+    </div>
+    <div>
+        <label>Temperature</label>
+        <input type="number" id="temperature" placeholder="Temperature">
+    </div>
+    <div> 
+        <button type="number"  onclick="calculateScore()">Calculate</button>
+    </div>
+    </form>
+    <div>
+        <h2 id="result"></h2>
+    </div>
+    
+    <script src="medi_calc.js"></script>
+  </body>
+</html>
