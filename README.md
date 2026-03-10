@@ -26,11 +26,13 @@ JavaScript was used because it allows the scoring logic to run directly in the b
  2. When the Calculate button is pressed, a JavaScript function is triggered
  3. The program reads the values entered into the form.
  4. A patient object is created in JavaScript containing all the values
- 5. The main function, calls several smaller fuction that calculates scores for each observation. These scores are added together in the main function to produce the final Medi Score.
+ 5. The main function, calls several smaller fuction that calculates scores for each observation, oxygen, consciousness, respiration rate, SpO2, temperature and capillary blood glucose. These scores are added together in the main function to produce the final Medi Score.
  6. The result is displayed on the page.
 
  # Program Structure
  The program is structured using modular functions.
- Instead of writing a large block of code, the calculation is divided into smaller fuctions
+ Instead of writing a large block of code, the calculation is divided into smaller fuctions with a main controller function.
 
- This approach, reduces code complexity, improves readability, makes debugging easier and allows for each scoring rule to be tested independently.
+ If statements combined with return statements are used to simplify the logic. Once a condition is met, the function immediately returns the appropriate score, preventing unncecessary checks and reduce complexity.
+
+ Overall This approach, reduces code complexity, improves readability, makes debugging easier and allows for each scoring rule to be tested independently.

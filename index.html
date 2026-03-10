@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HTML 5 Boilerplate</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <h1>Medi Calulator</h1>
@@ -25,6 +25,17 @@
           <option value="3">CVPU</option>
         </select>
     </div>
+    <div>
+        <label>Glucose Condition</label>
+        <select id="glucoseType">
+          <option value="fasting">Fasting</option>
+          <option value="eaten">2 hours after Eaten</option>
+    </select>
+     </div>
+     <div>
+         <label> Capillary Blood Glucose(mmol/L)</label>
+         <input type="number" id="glucose" step="0.1" placeholder="Capillary Blood Glucose">
+    </div>
      <div>
         <label>Respiration Rate/minuite</label>
         <input type="number" id="respirations" placeholder="Respirations">
@@ -35,10 +46,10 @@
     </div>
     <div>
         <label>Temperature</label>
-        <input type="number" id="temperature" placeholder="Temperature">
+        <input type="number" id="temperature" step="0.1" placeholder="Temperature">
     </div>
     <div> 
-        <button type="number"  onclick="calculateScore()">Calculate</button>
+        <button type="button"  onclick="calculateScore()">Calculate</button>
     </div>
     </form>
     <div>
