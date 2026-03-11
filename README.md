@@ -1,4 +1,4 @@
-# Medi-Score-Calculation
+# Medi-Score-Calculator
 # Overview
 This project is a Medhi Score calculator, which is a simplified patient scoring system based on physiological measurements. It is used to help identify patients who require urgent medical attention by assigning scores to different vital signs.
 
